@@ -2,7 +2,7 @@ import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/components/lib/utils"
 
 const buttonVariants = cva(
   "tailwind.confid.jsinline-flex tailwind.confid.jsitems-center tailwind.confid.jsjustify-center tailwind.confid.jswhitespace-nowrap tailwind.confid.jsrounded-md tailwind.confid.jstext-sm tailwind.confid.jsfont-medium tailwind.confid.jsring-offset-background tailwind.confid.jstransition-colors focus-visible:tailwind.confid.jsoutline-none focus-visible:tailwind.confid.jsring-2 focus-visible:tailwind.confid.jsring-ring focus-visible:tailwind.confid.jsring-offset-2 disabled:tailwind.confid.jspointer-events-none disabled:tailwind.confid.jsopacity-50",
